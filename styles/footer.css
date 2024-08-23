@@ -1,0 +1,13 @@
+footer{
+    width: auto;
+    margin: 0;
+    padding: 1.5em;
+    display: flex;
+    box-sizing: border-box;
+}
+.titulo_rodape{
+    font-size: 1rem;
+    color: var(--cor-pretoe);
+    font-weight: 400;
+    font-style: normal;
+}

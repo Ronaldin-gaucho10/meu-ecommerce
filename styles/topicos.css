@@ -1,0 +1,74 @@
+.banner_topicos
+{
+    width:100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--cor-fundo-degrade);
+    margin: 0;
+    gap: 32px;
+    padding: 1.5em 0em; 
+}
+.titulo_topicos
+{
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--cor-branco);
+    text-transform: uppercase;
+
+}
+.topicos_botoes{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+.botoes1,.botoes2,.botoes3{
+    gap:10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.button_topicos
+{
+    text-decoration: none;
+    background: var(--cor--rosa-fonte);
+    color: var(--cor-branco);
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 1.4rem;
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+
+    .banner_topicos {
+        padding: 2em 0; /* Aumenta o padding */
+        gap: 48px; /* Aumenta o espaçamento entre os elementos */
+    }
+    .titulo_topicos{
+        font-size: 1.5rem;
+    }
+    .topicos_botoes {
+        display: grid;
+        grid-template-columns: repeat(4, auto); /* 4 colunas com largura automática */
+        gap: 24px; /* Espaçamento entre os botões */
+        justify-content: center; /* Centraliza a grid dentro do container */
+    }
+    .botoes1, .botoes2, .botoes3 {
+        display: contents; /* Remove o layout de flexbox para usar o grid layout */
+    }
+    .button_topicos {
+        padding: 1.5em 1.4rem;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}

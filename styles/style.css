@@ -1,0 +1,27 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(card.css);
+@import url(topicos.css);
+@import url(footer.css);
+
+:root{
+    
+    --cor-fundo: #EBECEE;
+    --cor-fundo-banner: #b675a2;
+    --cor-fundo-degrade: linear-gradient(135deg, #fd81c7, #942ef3);
+
+    --cor--fonte: #ffffff;
+    --cor--rosa-fonte: #ff61ea;
+    --cor--rosa-escuro: #d837c3;
+    --cor-roxa: #923e87;
+    --cor-preto: #00000085;
+    --cor-pretoe: #000000;
+    --fonte-principal: "Poppins", sans-serif;
+    --cor-branco: #ffffff;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+}

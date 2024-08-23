@@ -1,0 +1,34 @@
+header
+{
+display: flex;
+background-color: var(--cor-branco);
+justify-content: space-between;
+align-items: center;
+padding: 1.50em 1.13em;
+}
+
+.cabecalho-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu1-hamburguer{
+    background-image: url('../assets/Menu.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 3.00em;
+    height: 3.00em;
+    margin-right: 1.50em;
+}
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 1.13em 5em;
+    }
+}
+@media screen and (min-width: 1728px){
+    header{
+        padding: 1.125em 5em;
+    }
+}
+ 
